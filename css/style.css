@@ -1,0 +1,19 @@
+#header {
+    background-color: darkgray;
+    width: 100%;
+    height: fit-content;
+}
+
+#content {
+    background-color: lightgray;
+    width: 100%;
+    height: fit-content;
+}
+
+
+#footer {
+    background-color: gray;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
