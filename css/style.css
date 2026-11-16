@@ -4,6 +4,11 @@ body {
     margin: 0;
     
 }
+
+.rij {
+    display: flex;
+}
+
 #container {
     width: 960px;
     margin: 0 auto;
