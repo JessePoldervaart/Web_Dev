@@ -40,6 +40,17 @@ body {
     text-decoration: none;
 }
 
+#product-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    margin-bottom: 20px;
+}
+#display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* classes */
 .product {
     background-color: aliceblue;
@@ -61,7 +72,7 @@ body {
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    width: 600px;    
+    width: 900px;    
 }
 
 .price{
