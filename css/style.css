@@ -12,8 +12,11 @@ body {
 }
 
 #header {
-    background-color: rgb(255, 0, 0);
-    color: #a2f6fc;
+    /* background-image: url("images/tamiya_yamato.jpg");
+    background-size: cover;
+    height: 150px; */
+    background-color: rgb(33, 56, 22);
+    color: #c4c383;
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
@@ -21,7 +24,7 @@ body {
 }
 
 #content {
-    background-color: #a2f6fc;
+    background-color:#c4c383;
     justify-content: center;
     box-sizing: border-box;
     display: flex;
@@ -36,7 +39,7 @@ body {
 }
 
 #menu a {
-    color: #a2f6fc;
+    color:#c4c383;
     text-decoration: none;
 }
 
@@ -45,16 +48,18 @@ body {
     justify-content: space-between;
     align-items: right;
     margin-bottom: 20px;
+    
 }
 #display {
     display: flex;
     align-items: center;
     justify-content: center;
+    list-style: none;
 }
 /* classes */
 .product {
-    background-color: aliceblue;
-    border: 1px solid #8a8989;
+    background-color: rgb(115, 145, 113);
+    border: 1px solid #000000;
     padding: 10px;           
     margin-bottom: 20px; 
     margin-top: 20px;
@@ -65,7 +70,7 @@ body {
 }
 
 .product_specific {
-    background-color: aliceblue;
+    background-color: rgb(115, 145, 113);
     border: 1px solid #8a8989;
     padding: 10px;           
     margin-bottom: 20px; 
@@ -82,9 +87,9 @@ body {
 }
 
 #footer {
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(33, 56, 22);
     width: auto;
-     color: #a2f6fc;
+     color: #c4c383;
     padding: 20px;
     text-align: center;
 }
@@ -98,3 +103,42 @@ body {
     color: #686868;
 }
 
+
+
+
+
+
+.formulier {
+    max-width: 400px;
+}
+
+/* Elk veld: label boven het invoervak, ruimte eronder */
+.veld {
+    margin-bottom: 15px;
+}
+
+.veld label {
+    display: block;          /* label op een eigen regel */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Alle invoervelden even breed */
+.veld input,
+.veld select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.vinkje {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.vinkje input {
+    width: auto;
+}
