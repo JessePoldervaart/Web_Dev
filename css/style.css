@@ -112,18 +112,18 @@ body {
     max-width: 400px;
 }
 
-/* Elk veld: label boven het invoervak, ruimte eronder */
+
 .veld {
     margin-bottom: 15px;
 }
 
 .veld label {
-    display: block;          /* label op een eigen regel */
+    display: block;          
     margin-bottom: 5px;
     font-weight: bold;
 }
 
-/* Alle invoervelden even breed */
+
 .veld input,
 .veld select {
     width: 100%;
@@ -141,4 +141,9 @@ body {
 
 .vinkje input {
     width: auto;
+}
+
+input.knop {
+    font-size: 16px;
+    cursor: pointer;
 }
