@@ -50,12 +50,7 @@ body {
     margin-bottom: 20px;
     
 }
-#display {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-}
+
 /* classes */
 .product {
     background-color: rgb(115, 145, 113);

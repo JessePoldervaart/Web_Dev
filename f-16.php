@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1:48 Tamiya 61098 F-16CJ Lockheed Martin Fighting Falcon</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<div id="container">
-<div id="header">
-    <h5>1:48 Tamiya 61098 F-16CJ Lockheed Martin Fighting Falcon Block 50</h5>
-</div>
+<?php include "included/header.php"; ?>
 <div id="content">
 <div class="product_specific">
+     <h2>1:48 Tamiya 61098 F-16CJ Lockheed Martin Fighting Falcon Block 50</h2>
         <img src="images/tamiya_f-162.jpg" alt="image not found" width="500">
         <p class="price">&euro;50,95</p>
 
@@ -45,13 +34,9 @@ geschiedenis heeft geschreven in moderne luchtoperaties.</p>
 
 <p>Voeg dit krachtige model nu toe aan je winkelwagen en bouw een straaljager die 
             je collectie direct naar een hoger niveau tilt.</p>
- <a href="index.html">Terug</a>
+ <a href="index.php">Terug</a>
 </div>
 
 </div>
-</div>
-<div id="footer">
-    <p>&copy; 2026 De Modelhoek. All rights reserved.</p>
-</div>
-</body>
-</html>
+
+<?php include "included/footer.php"; ?>

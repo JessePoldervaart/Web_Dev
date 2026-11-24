@@ -1,24 +1,7 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>De Modelhoek</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<div id="container">
 
-<div id="header">
-    <h1>De Modelhoek</h1>
-    <ul id="menu">
-        <li><a href="index.html">Producten</a></li>
-        <li><a href="#">Over ons</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-</div>
 
-<div id="content">
+<?php include "included/header.php"; ?>
+
 
 
 <h2>Bestellen: Nike Air Max 90</h2>
@@ -55,7 +38,7 @@
 
 
 <input type="submit" value="Bestelling plaatsen" class="knop">
-<a href="index.html">Terug</a>
+<a href="index.php">Terug</a>
 
 </form>
 
@@ -71,9 +54,8 @@
 </div>
 
 
-<div id="footer">
-    <p>&copy; 2026 De Modelhoek. All rights reserved.</p>
-</div>
+
+<?php include "included/footer.php"; ?>
 
 
 
@@ -85,6 +67,3 @@
 
 
 
-</div>
-</body>
-</html>

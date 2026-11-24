@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1:350 Tamiya 78025 Japanese Battleship Yamato</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<div id="container">
-    <div id="header">
-        <h5>1:350 Tamiya 78025 Japanese Battleship Yamato</h5>
-    </div>
-<div id="content">
+<?php include "included/header.php"; ?>
 <div class="product_specific">
 <img src="images/tamiya_yamato2.jpg" alt="image not found" width="500">
 <p class="price">&euro;279,95</p>
@@ -43,15 +30,12 @@ modelbouwers de kans om een indrukwekkend stuk maritieme geschiedenis tot leven
 te brengen. Voeg de Yamato toe aan je collectie en creëer een indrukwekkende 
 weergave die de kracht en grandeur van dit historische schip vangt.</p>
 
-<a href="index.html">Terug</a>
+<a href="index.php">Terug</a>
 
 </div>
 
 </div>
 
-<div id="footer">
-<p>&copy; 2026 De Modelhoek. All rights reserved.</p>
-</div>
 
-</body>
-</html>
+<?php include "included/footer.php"; ?>
+

@@ -1,18 +1,8 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1:35 Tamiya 35391 M24 Chaffee - European Theater WWII</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<div id="container">
-<div id="header">
-    <h5>1:35 Tamiya 35391 M24 Chaffee - European Theater WWII</h5>
-</div>
-<div id="content">
+
+<?php include "included/header.php"; ?>
+
     <div class="product_specific">
+      <h2>1:35 Tamiya 35391 M24 Chaffee - European Theater WWII</h2>
         <img src="images/tamiya_tank2.jpg" alt="image not found" width="500">
 
     <p class="price">&euro;35,95</p>
@@ -53,13 +43,10 @@
 </ul>
 <p>Voeg een iconische tank uit de Tweede Wereldoorlog toe aan je verzameling met de 
     1:35 Tamiya 35391 M24 Chaffee - European Theater WWII.</p>
-<a href="index.html">Terug</a>
+<a href="index.php">Terug</a>
 </div>
 
 </div>
 </div>
-<div id="footer">
-    <p>&copy; 2026 De Modelhoek. All rights reserved.</p>
-</div>
-</body>
-</html>
+
+<?php include "included/footer.php"; ?>

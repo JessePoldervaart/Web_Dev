@@ -1,29 +1,14 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1:35 Tamiya 35113 Sd.Kfz.250/3 Greif Ausf. A</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<div id="container">
-<div id="header">
-    <h5>1:35 Tamiya 35113 Sd.Kfz.250/3 Greif Ausf. A</h5>
-</div>
 
-<div id="content">
+<?php include "included/header.php"; ?>
     <div class="product_specific">
-        <div id="display">
+          <h2>1:35 Tamiya 35113 Sd.Kfz.250/3 Greif Ausf. A</h2>
         <div id="product-image"><img src="images/tamiya_greif2.jpg" alt="image not found" width="500"></div>
     
 
-<ul> 
-<li><p class="price">&euro;29,95</p></li>
-<li><a href="bestellen.html">Bestellen</a></li>
-</ul>
 
-</div>
+<p class="price">&euro;29,95</p>
+<a href="bestellen.php">Bestellen</a>
+
 
 
 <!-- verkooppraatje/kenmerken -->
@@ -50,13 +35,10 @@ voertuig een fascinerend onderwerp voor liefhebbers van militaire modelbouw en h
     Sd.Kfz.250/3 Greif Ausf. A.</p>
 
 
-<a href="index.html">Terug</a>
+<a href="index.php">Terug</a>
 </div>
 
 </div>
-</div>
-<div id="footer">
-    <p>&copy; 2026 De Modelhoek. All rights reserved.</p>
-</div>
-</body>
-</html>
+
+
+<?php include "included/footer.php"; ?>

@@ -1,18 +1,8 @@
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1:35 Tamiya 35103 Gulaschkanone</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-<div id="container">
-<div id="header">
-    <h5>1:35 Tamiya 35103 Gulaschkanone</h5>
-</div>
-<div id="content">
+
+<?php include "included/header.php"; ?>
+
     <div class="product_specific">
+        <h2>1:35 Tamiya 35103 Gulaschkanone</h2>
         <img src="images/tamiya_veldkeuken2.jpg" alt="image not found" width="500">
         <p class="price">&euro;20,95</p>
 
@@ -37,12 +27,9 @@ Gulaschkanone, oftewel goulashkanon.</p>
 </ul>
 
 <p>Voeg de Tamiya Gulaschkanone vandaag nog toe aan je winkelwagen en geef je Duitse WWII-diorama extra sfeer en verhaal.</p>
-<a href="index.html">Terug</a> 
+<a href="index.php">Terug</a> 
 </div>
 
 </div>
-<div id="footer">
-    <p>&copy; 2026 De Modelhoek. All rights reserved.</p>
-</div>
-</body>
-</html>
+
+<?php include "included/footer.php"; ?>
