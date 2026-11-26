@@ -1,13 +1,28 @@
 
-
+<?php
+include "includes/db.php";
+// Haal alle producten uit de database
+$producten = $pdo->query("SELECT * FROM producten")->fetchAll();
+?>
 <?php include "included/header.php"; ?>
 
 
 
 
+<div class="producten">
+    <?php foreach ($producten as $product) { ?>
 
-
-<!-- greif -->
+<div class="product">
+    <div class="img">
+    <img src="images/<?php echo $product['afbeelding']; ?>" alt="<?php echo $product['naam']; ?>" width="300">
+    </div>
+    <h3><?php echo $product['naam']; ?></h3>
+    <p class="prijs">&euro; <?php echo $product['prijs']; ?></p>
+    <a href="detail.php?id=<?php echo $product['id']; ?>" class="knop">Bekijk</a>
+</div>
+   <?php } ?>
+</div>
+<!-- greif
 <div class="product">
 <a href="greif.php" class="knop">
 <h2>1:35 Tamiya 35113 Sd.Kfz.250/3 Greif Ausf. A</h2>
@@ -15,7 +30,7 @@
 <p class="price">&euro;29,95</p></a>
 </div>
 
-<!-- tank -->
+tank
 <div class="product">
 <a href="tank.php" class="knop">    
 <h2>1:35 Tamiya 35391 M24 Chaffee - European Theater WWII</h2>
@@ -24,7 +39,7 @@
 </a>
 </div>
 
-<!-- veldkeuken -->
+veldkeuken
 <div class="product">
 <a href="veldkeuken.php" class="knop">
 <h2>1:35 Tamiya 35103 Gulaschkanone</h2>
@@ -33,7 +48,7 @@
 </a>
 </div>
 
-<!-- rupsband -->
+rupsband
 <div class="product">
 <a href="rupsband.php" class="knop">
 <h2>1:35 Tamiya 35394 Steyr RSO/01</h2>
@@ -42,7 +57,7 @@
 </a>
 </div>
 
-<!-- yamato -->
+yamato
 <div class="product">
 <a href="yamato.php" class="knop">
 <h2>1:350 Tamiya 78025 Japanese Battleship Yamato</h2>
@@ -51,7 +66,7 @@
 </a>
 </div>
 
-<!-- f-16 -->
+f-16 
 <div class="product">
 <a href="f-16.php" class="knop">
 <h2>1:48 Tamiya 61098 F-16CJ Lockheed Martin Fighting Falcon Block 50</h2>
@@ -59,7 +74,7 @@
 <p class="price">&euro;50,95</p>
 </a>
 </div>
-</div>
+</div> -->
 
 
 

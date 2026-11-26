@@ -142,3 +142,8 @@ input.knop {
     font-size: 16px;
     cursor: pointer;
 }
+
+
+.img {
+   max-width: 300px;
+}
