@@ -1,5 +1,7 @@
 <?php include "included/header.php"; ?>
+
 <div class="product_specific">
+<h2>1:350 Tamiya 78025 Japanese Battleship Yamato</h2>
 <img src="images/tamiya_yamato2.jpg" alt="image not found" width="500">
 <p class="price">&euro;279,95</p>
 
